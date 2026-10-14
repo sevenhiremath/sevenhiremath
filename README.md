@@ -1,6 +1,6 @@
 # Hi, I'm Swayam
 
-I'm a final year Computer Science student at SJB Institute of Technology in Bengaluru, graduating in July 2027.
+I'm a final year Computer Science student in Bengaluru, graduating in July 2027.
 
 I work mostly with Python, Java, SQL, Linux and AWS. I like building something small, understanding where it breaks, and improving it step by step.
 
