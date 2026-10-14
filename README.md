@@ -1,66 +1,34 @@
-# SWAYAM HIREMATH
+# Hi, I'm Swayam
 
-Computer Science student building backend systems, cloud infrastructure and automation.
+I'm a final year Computer Science student at SJB Institute of Technology in Bengaluru, graduating in July 2027.
 
-I like understanding how systems work, building them from scratch and making them more reliable.
+I work mostly with Python, Java, SQL, Linux and AWS. I like building something small, understanding where it breaks, and improving it step by step.
 
-| Focus | Backend Engineering · Cloud · DevOps · Systems |
-| --- | --- |
-| Languages | Java · Python · SQL · Bash |
-| Cloud | AWS · Terraform |
-| Backend | REST APIs · HTTP Services · Flask · JSON |
-| Systems | Linux · Docker · Networking · Monitoring |
-| Seeking | Software Engineer · Backend Engineer · Cloud Engineer · DevOps |
+## Main projects
 
----
+### [Self-healing infrastructure](https://github.com/sevenhiremath/self-healing-infrastructure)
 
-## Profile
+A small Flask service deployed on AWS using Terraform. I use systemd to restart the application process and an Auto Scaling Group to replace unhealthy instances.
 
-I’m a Computer Science undergraduate graduating in 2027 with a focus on backend engineering and cloud systems.
+The interesting part for me is the difference between recovering a process and replacing a server. The repository includes the deployment configuration and a script for measuring process recovery.
 
-Most of my projects involve building services, deploying them on AWS, automating infrastructure and figuring out what happens when things fail.
+**Python · Linux · systemd · AWS · Terraform · CloudWatch**
 
-## Projects
+### [Interview analytics pipeline](https://github.com/sevenhiremath/edge-Interview-analysis-main-)
 
-### ❯ Self-Healing Backend Service
+My final year project processes interview recordings locally. It extracts audio, transcribes speech, separates speakers and builds a report with speaking metrics and a comparison against a job description.
 
-A Python HTTP backend deployed on AWS with health checks, automatic process recovery, monitoring and automated instance remediation.
+The code brings together existing speech models. My focus is the pipeline around them: processing stages, cached outputs, speaker alignment and the report.
 
-`Python` `AWS` `Terraform` `Linux` `systemd` `Lambda`
+**Python · FFmpeg · Faster-Whisper · ONNX Runtime · SentenceTransformers**
 
-### ❯ Edge Interview Analytics Pipeline
+## Other work
 
-A modular offline pipeline for video ingestion, audio processing, transcription, analysis and reporting with caching and performance monitoring.
+- **[Interview analytics prototype](https://github.com/sevenhiremath/edge-interview-analytics-prototype)** — the earlier version using Vosk. A smaller pipeline for chunking video, transcribing audio and counting filler words.
+- **[Flutter contacts app](https://github.com/sevenhiremath/contacts-app-flutter)** — a practice app for adding, editing, searching and marking contacts as favourites.
 
-`Python` `FFmpeg` `Linux` `ONNX Runtime` `Streamlit`
+## What I'm learning
 
-### ❯ AWS Infrastructure Hygiene Scanner
+I'm interested in backend and cloud engineering. I'm working on making my projects easier to run, documenting the decisions behind them and understanding failures rather than just getting a successful demo.
 
-A Python CLI that checks AWS resources for common security and configuration issues and returns structured findings.
-
-`Python` `boto3` `AWS` `JSON` `CLI`
-
-## What I Work With
-
-### Languages
-Java · Python · SQL · Bash
-
-### Backend
-Flask · REST APIs · HTTP · JSON · CLI Development
-
-### Cloud
-AWS · EC2 · VPC · ALB · Auto Scaling · Lambda · IAM · S3 · CloudWatch · SNS · Terraform
-
-### Systems
-Linux · systemd · SSH · TCP/IP · DNS · Service Monitoring · System Troubleshooting
-
-### Tools
-Git · Docker · boto3 · FFmpeg · Streamlit
-
----
-
-## Links
-
-[LinkedIn](https://linkedin.com/in/swayam-h)
-
-[Email](mailto:SwayamHiremath@outlook.com)
+[LinkedIn](https://www.linkedin.com/in/swayam-h) · [Email](mailto:SwayamHiremath@outlook.com)
